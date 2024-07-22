@@ -83,9 +83,9 @@ Each character is written as output until we reach '%'. When the function finds 
 <br>
 <h2>Functions</h2>
 <div>
-	<table align="right">
-		<th align="center">Printf Functions</th>
-		<th align="left">Description</th>
+	<table align="left">
+		<th align="center"><br>Printf Functions</th>
+		<th align="left"><br>Description</th>
 			<tr align="left">
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_funlibft_pf</a></td>
 				<td>Edited functions from <a href="https://github.com/eduaserr/42cursus/tree/master/libft">libft</a> .</td>
@@ -103,8 +103,8 @@ Each character is written as output until we reach '%'. When the function finds 
 			</tr>
 			</tr>
 	</table>
-	<table>
-		<th align="center">*ft_funlibft_pf<br> functions</th>
+	<table align="right">
+		<th align="center">*ft_funlibft_pf<br>&emsp;functions</th>
 		<th align="left">Description</th>
 			<tr align="left">
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putchar_pf</a></td>
