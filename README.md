@@ -83,7 +83,7 @@ Each character is written as output until we reach '%'. When the function finds 
 <br>
 <h2>Functions</h2>
 <div>
-	<table align="left">
+	<table align="right">
 		<th align="center">Printf Functions</th>
 		<th align="left">Description</th>
 			<tr align="left">
@@ -95,30 +95,30 @@ Each character is written as output until we reach '%'. When the function finds 
 			</tr>
 			<tr>
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/libft/ft_strlen.c">ft_strlen</a></td>
-				<td>Returns the total lenght of the string.</td>
+				<td>Returns the total lenght<br> of the string.</td>
 			<tr>
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_printf.c">ft_fillformat_pf</a></td>
-				<td>Chooses what type of variable is going to print.</td>
+				<td>Chooses what type <br>of variable is going to print.</td>
 			</tr>
 			</tr>
 			</tr>
 	</table>
-	<table align="right">
-		<th align="center">*ft_funlibft_pf functions</th>
+	<table>
+		<th align="center">*ft_funlibft_pf<br> functions</th>
 		<th align="left">Description</th>
 			<tr align="left">
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putchar_pf</a></td>
-				<td>Prints character and increments <code>count</code> .</td>
+				<td>Prints character <br>and increments <code>count</code> .</td>
 			<tr>
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putnbr_pf</a></td>
-				<td>Prints numbers in decimal base.<br>It puts too numbers in hexadecimal base.</td>
+				<td>Prints numbers in decimal base.<br>It puts too numbers <br>in hexadecimal base.</td>
 			</tr>
 			<tr>
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putstr_pf</a></td>
 				<td>Prints a string.</td>
 			<tr>
 				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putptr_pf</a></td>
-				<td>Prints a pointer in hexadecimal base, adding "0x" before.</td>
+				<td>Prints a pointer in hexadecimal <br>base, adding "0x" before.</td>
 			</tr>
 			</tr>
 			</tr>
