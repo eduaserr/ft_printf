@@ -1,4 +1,7 @@
-<h1 align="center"> ~PRINTF~ <br><img alt="success 100/100" src="https://img.shields.io/badge/100%2F100-green?style=plastic&logoColor=green&label=success"></h1>
+<div>
+	<img align="right" alt="printfBonus" src="https://github.com/eduaserr/42-project-badges/blob/a48e677fd4871e6999a9564101dca26091ec18ef/badges/ft_printfm.png" width="75px">
+	<h1 align="center"> ~PRINTF~ <br><img alt="success 100/100" src="https://img.shields.io/badge/100%2F100-green?style=plastic&logoColor=green&label=success"></h1>
+</div>
 <div align="justify">The <code>printf</code> function is a command to display a formatted output string on the standart output. <i>'Formatted'</i> means that format specifiers, which begin with the % character, indicate the location and method of converting a data element (such as a number) into characters.<br>
 Each character is written as output until we reach '%'. When the function finds any format specifier, looks for it and output the same string with the new length of the formatted string. This is possible thanks to the use of <b>variadics functions</b>.<br><br>
 <div align="left">Allowed functions : <code>write</code>, <code>va_start</code>, <code>va_arg</code>, <code>va_list</code>, <code>va_end</code></code>.</div>
