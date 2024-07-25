@@ -1,6 +1,5 @@
 <div>
 	<img align="left" alt="printfBonus" src="https://github.com/eduaserr/42-project-badges/blob/a48e677fd4871e6999a9564101dca26091ec18ef/badges/ft_printfe.png" width="75px">
-	<img align="right" alt="printfBonus" src="https://github.com/eduaserr/42-project-badges/blob/a48e677fd4871e6999a9564101dca26091ec18ef/badges/ft_printfm.png" width="75px">
 	<h1 align="center"> ~PRINTF~ <br><img alt="success 100/100" src="https://img.shields.io/badge/100%2F100-green?style=plastic&logoColor=green&label=success"></h1>
 </div>
 <div align="justify">The <code>printf</code> function is a command to display a formatted output string on the standart output. <i>'Formatted'</i> means that format specifiers, which begin with the % character, indicate the location and method of converting a data element (such as a number) into characters.<br>
