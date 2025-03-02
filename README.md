@@ -58,7 +58,7 @@ Each character is written as output until we reach '%'. When the function finds 
 <div align="justify">Variadics functions are functions that can receive a variable number of arguments.</div>
 
 	int	ft_printf(char str, ...)
-<div align="justify">In this case our <a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_printf.c"><u>ft_printf</u></a> receive a string as a first argument, and this (...) means that the function has variadic arguments.</div>
+<div align="justify">In this case our <a href="https://github.com/eduaserr/ft_printf/tree/b8556bd36c03545f474167a3b5b73b782d4be50a?tab=readme-ov-file"><u>ft_printf</u></a> receive a string as a first argument, and this (...) means that the function has variadic arguments.</div>
 <br>
 <br>
 <p align="center"><a href="https://learn.microsoft.com/es-es/cpp/preprocessor/variadic-macros?view=msvc-170">What are variadic macros?</a></p><br>
