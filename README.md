@@ -1,12 +1,12 @@
 <div>
 	<img align="left" alt="printfBonus" src="https://github.com/eduaserr/42-project-badges/blob/a48e677fd4871e6999a9564101dca26091ec18ef/badges/ft_printfe.png" width="75px">
-	<h1 align="center"> ~PRINTF~ <br><img alt="success 100/100" src="https://img.shields.io/badge/100%2F100-green?style=plastic&logoColor=green&label=success"></h1>
+	<h1 align="center"> ~FT_PRINTF~ <br><img alt="success 100/100" src="https://img.shields.io/badge/100%2F100-green?style=plastic&logoColor=green&label=success"></h1>
 </div>
 <div align="justify">The <code>printf</code> function is a command to display a formatted output string on the standart output. <i>'Formatted'</i> means that format specifiers, which begin with the % character, indicate the location and method of converting a data element (such as a number) into characters.<br>
 Each character is written as output until we reach '%'. When the function finds any format specifier, looks for it and output the same string with the new length of the formatted string. This is possible thanks to the use of <b>variadics functions</b>.<br><br>
 <div align="left">Allowed functions : <code>write</code>, <code>va_start</code>, <code>va_arg</code>, <code>va_list</code>, <code>va_end</code></code>.</div>
 
-### How to ... [Printf](/ft_printf)
+### How to ... [Printf]()
 
 <div align="justify">You must include first " stdio.h " library.</div>
 
@@ -58,7 +58,7 @@ Each character is written as output until we reach '%'. When the function finds 
 <div align="justify">Variadics functions are functions that can receive a variable number of arguments.</div>
 
 	int	ft_printf(char str, ...)
-<div align="justify">In this case our <a href="https://github.com/eduaserr/ft_printf/tree/b8556bd36c03545f474167a3b5b73b782d4be50a?tab=readme-ov-file"><u>ft_printf</u></a> receive a string as a first argument, and this (...) means that the function has variadic arguments.</div>
+<div align="justify">In this case our <a href="https://github.com/eduaserr/ft_printf"><u>ft_printf</u></a> receive a string as a first argument, and this (...) means that the function has variadic arguments.</div>
 <br>
 <br>
 <p align="center"><a href="https://learn.microsoft.com/es-es/cpp/preprocessor/variadic-macros?view=msvc-170">What are variadic macros?</a></p><br>
@@ -90,17 +90,17 @@ Each character is written as output until we reach '%'. When the function finds 
 		<th align="center">Printf Functions</th>
 		<th align="left">Description</th>
 			<tr align="left">
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_funlibft_pf</a></td>
-				<td>Edited functions from <a href="https://github.com/eduaserr/42cursus/tree/master/libft">libft</a> .</td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_funlibft_pf</a></td>
+				<td>Edited functions from <a href="https://github.com/eduaserr/Libft">libft</a>.</td>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_printf.c">ft_printf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_printf.c">ft_printf</a></td>
 				<td>Recreates printf function.</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/libft/ft_strlen.c">ft_strlen</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_strlen</a></td>
 				<td>Returns the total lenght of the string.</td>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_printf.c">ft_fillformat_pf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_printf.c">ft_fillformat_pf</a></td>
 				<td>Chooses what type of variable is going to print.</td>
 			</tr>
 			</tr>
@@ -110,17 +110,17 @@ Each character is written as output until we reach '%'. When the function finds 
 		<th align="center">*ft_funlibft_pf functions</th>
 		<th align="left">Description</th>
 			<tr align="left">
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putchar_pf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_putchar_pf</a></td>
 				<td>Prints character and increments <code>count</code> .</td>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putnbr_pf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_putnbr_pf</a></td>
 				<td>Prints numbers in decimal base.<br>It puts too numbers in hexadecimal base.</td>
 			</tr>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putstr_pf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_putstr_pf</a></td>
 				<td>Prints a string.</td>
 			<tr>
-				<td><a href="https://github.com/eduaserr/42cursus/blob/master/ft_printf/ft_funlibft_pf.c">ft_putptr_pf</a></td>
+				<td><a href="https://github.com/eduaserr/ft_printf/blob/main/ft_funlibft_pf.c">ft_putptr_pf</a></td>
 				<td>Prints a pointer in hexadecimal base, adding "0x" before.</td>
 			</tr>
 			</tr>
